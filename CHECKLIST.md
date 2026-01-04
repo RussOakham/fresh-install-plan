@@ -22,14 +22,14 @@ Use this checklist to track progress through the entire fresh install process.
 
 ### 1.4 Backup Critical Data
 
-- [ ] Backup SSH keys (Windows and WSL)
-- [ ] Backup GPG keys
-- [ ] Backup important documents and projects
+- [x] Backup SSH keys (Windows and WSL)
+- [x] Backup GPG keys
+- [x] Backup important documents and projects (manually copied to Dropbox)
 - [ ] Export browser bookmarks and passwords
-- [ ] Export Git configurations
-- [ ] Export environment variables
+- [x] Export Git configurations
+- [x] Export environment variables
 - [ ] Export application settings/configurations
-- [ ] Document current installed software
+- [x] Document current installed software
 - [ ] Export Windows settings
 
 ### 1.5 Gather Installation Media & Keys
@@ -42,10 +42,10 @@ Use this checklist to track progress through the entire fresh install process.
 
 ### 1.6 Document Current System
 
-- [ ] List all installed software (create initial software list in repository)
+- [x] List all installed software (create initial software list in repository)
 - [ ] Document network configurations
 - [ ] Note any custom system settings
-- [ ] Commit all documentation to Git repository
+- [x] Commit all documentation to Git repository
 
 ## Phase 2: Windows Fresh Install
 
