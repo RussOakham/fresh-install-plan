@@ -25,12 +25,12 @@ Use this checklist to track progress through the entire fresh install process.
 - [x] Backup SSH keys (Windows and WSL)
 - [x] Backup GPG keys
 - [x] Backup important documents and projects (manually copied to Dropbox)
-- [ ] Export browser bookmarks and passwords
+- [x] Export browser bookmarks and passwords (Skipped - using Google password manager, accessible after login)
 - [x] Export Git configurations
 - [x] Export environment variables
-- [ ] Export application settings/configurations
+- [x] Export application settings/configurations (Skipped - starting fresh)
 - [x] Document current installed software
-- [ ] Export Windows settings
+- [x] Export Windows settings (Skipped - starting fresh)
 
 ### 1.5 Gather Installation Media & Keys
 
