@@ -6,19 +6,19 @@ Use this checklist to track progress through the entire fresh install process.
 
 ### 1.1 Create Git Repository (Source of Truth)
 
-- [ ] Create repository locally
-- [ ] Optionally create remote repository (GitHub, GitLab, etc.) and push
+- [x] Create repository locally
+- [x] Optionally create remote repository (GitHub, GitLab, etc.) and push
 
 ### 1.2 Setup Cloud Backup Location (Dropbox)
 
-- [ ] Install Dropbox Desktop or CLI tool
-- [ ] Sign in to Dropbox account
-- [ ] Create backup directory structure: `PC-Backup-2024/`
+- [x] Install Dropbox Desktop or CLI tool
+- [x] Sign in to Dropbox account
+- [x] Create backup directory structure: `PC-Backup-2026/`
 
 ### 1.3 Create Repository Structure
 
-- [ ] Create all repository files (README, guides, templates)
-- [ ] Create BACKUP_SCRIPTS directory
+- [x] Create all repository files (README, guides, templates)
+- [x] Create BACKUP_SCRIPTS directory
 
 ### 1.4 Backup Critical Data
 
@@ -70,7 +70,7 @@ Use this checklist to track progress through the entire fresh install process.
 
 - [ ] Install Dropbox Desktop
 - [ ] Sign in to Dropbox account
-- [ ] Verify backup folder `PC-Backup-2024` is synced
+- [ ] Verify backup folder `PC-Backup-2026` is synced
 - [ ] Restore Git repository
 - [ ] Verify repository contains all plan files
 - [ ] Restore SSH keys

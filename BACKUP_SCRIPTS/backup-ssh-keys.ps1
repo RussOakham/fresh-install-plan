@@ -1,8 +1,8 @@
 # Backup SSH Keys Script
 # This script backs up SSH keys from both Windows and WSL to Dropbox
 
-$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2024\ssh-keys"
-$backupPathWSL = "$env:USERPROFILE\Dropbox\PC-Backup-2024\ssh-keys-wsl"
+$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2026\ssh-keys"
+$backupPathWSL = "$env:USERPROFILE\Dropbox\PC-Backup-2026\ssh-keys-wsl"
 
 Write-Host "Starting SSH keys backup..." -ForegroundColor Green
 
@@ -23,7 +23,7 @@ if (Test-Path "$env:USERPROFILE\.ssh") {
 if (Get-Command wsl -ErrorAction SilentlyContinue) {
     Write-Host "Backing up WSL SSH keys..." -ForegroundColor Yellow
     try {
-        wsl bash -c "if [ -d ~/.ssh ]; then cp -r ~/.ssh/* /mnt/c/Users/$env:USERNAME/Dropbox/PC-Backup-2024/ssh-keys-wsl/ 2>/dev/null; echo 'WSL SSH keys backed up'; else echo 'No WSL .ssh directory found'; fi"
+        wsl bash -c "if [ -d ~/.ssh ]; then cp -r ~/.ssh/* /mnt/c/Users/$env:USERNAME/Dropbox/PC-Backup-2026/ssh-keys-wsl/ 2>/dev/null; echo 'WSL SSH keys backed up'; else echo 'No WSL .ssh directory found'; fi"
         Write-Host "WSL SSH keys backup completed!" -ForegroundColor Green
     } catch {
         Write-Host "Error backing up WSL SSH keys: $_" -ForegroundColor Red

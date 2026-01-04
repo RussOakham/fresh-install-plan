@@ -1,7 +1,7 @@
 # Backup Configurations Script
 # This script backs up various configurations to Dropbox
 
-$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2024\configs"
+$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2026\configs"
 
 Write-Host "Starting configurations backup..." -ForegroundColor Green
 

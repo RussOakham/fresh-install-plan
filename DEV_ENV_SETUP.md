@@ -245,7 +245,7 @@ After Windows installation, restore the plan repository:
   cd fresh-install-plan
 
   # Or restore from Dropbox backup if stored locally
-  # Navigate to Dropbox/PC-Backup-2024 and copy repository folder
+  # Navigate to Dropbox/PC-Backup-2026 and copy repository folder
   ```
 
 ## Verification

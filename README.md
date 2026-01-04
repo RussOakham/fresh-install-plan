@@ -29,7 +29,7 @@ This plan covers:
 
 ## Backup Location
 
-All backups are stored in Dropbox: `PC-Backup-2024/`
+All backups are stored in Dropbox: `PC-Backup-2026/`
 
 ## Progress Tracking
 

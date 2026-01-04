@@ -31,7 +31,7 @@
 
 - [ ] Install Dropbox Desktop from <https://www.dropbox.com/download>
 - [ ] Sign in to Dropbox account
-- [ ] Verify backup folder `PC-Backup-2024` is synced
+- [ ] Verify backup folder `PC-Backup-2026` is synced
 - [ ] Restore Git repository:
 
   ```bash
@@ -40,7 +40,7 @@
   cd fresh-install-plan
   
   # Option 2: Copy from Dropbox if stored locally
-  # Navigate to Dropbox/PC-Backup-2024 and copy repository folder
+  # Navigate to Dropbox/PC-Backup-2026 and copy repository folder
   ```
 
 - [ ] Verify repository contains all plan files
@@ -50,7 +50,7 @@
   # Create .ssh directory
   New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.ssh"
   # Copy from Dropbox backup
-  Copy-Item -Path "$env:USERPROFILE\Dropbox\PC-Backup-2024\ssh-keys\*" -Destination "$env:USERPROFILE\.ssh\" -Recurse
+  Copy-Item -Path "$env:USERPROFILE\Dropbox\PC-Backup-2026\ssh-keys\*" -Destination "$env:USERPROFILE\.ssh\" -Recurse
   # Set correct permissions
   icacls "$env:USERPROFILE\.ssh" /inheritance:r
   icacls "$env:USERPROFILE\.ssh" /grant:r "$env:USERNAME:(OI)(CI)F"
@@ -60,8 +60,8 @@
 
   ```powershell
   # Import GPG keys
-  gpg --import "$env:USERPROFILE\Dropbox\PC-Backup-2024\gpg-keys\public-keys.asc"
-  gpg --import "$env:USERPROFILE\Dropbox\PC-Backup-2024\gpg-keys\private-keys.asc"
+  gpg --import "$env:USERPROFILE\Dropbox\PC-Backup-2026\gpg-keys\public-keys.asc"
+  gpg --import "$env:USERPROFILE\Dropbox\PC-Backup-2026\gpg-keys\private-keys.asc"
   ```
 
 ## Important Notes

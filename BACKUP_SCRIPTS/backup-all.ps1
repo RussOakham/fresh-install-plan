@@ -29,6 +29,6 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "  Backup Process Complete!" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "Please verify all backups in Dropbox: PC-Backup-2024\" -ForegroundColor Yellow
+Write-Host "Please verify all backups in Dropbox: PC-Backup-2026\" -ForegroundColor Yellow
 Write-Host ""
 

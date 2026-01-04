@@ -2,7 +2,7 @@
 # This script backs up important documents and projects to Dropbox
 # IMPORTANT: Review and customize the source paths before running!
 
-$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2024"
+$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2026"
 
 Write-Host "Starting documents and projects backup..." -ForegroundColor Green
 Write-Host "WARNING: This script will copy files. Review source paths in the script before running!" -ForegroundColor Yellow

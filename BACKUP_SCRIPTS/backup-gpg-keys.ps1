@@ -1,7 +1,7 @@
 # Backup GPG Keys Script
 # This script backs up GPG keys to Dropbox
 
-$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2024\gpg-keys"
+$backupPath = "$env:USERPROFILE\Dropbox\PC-Backup-2026\gpg-keys"
 $gnupgPath = "$env:APPDATA\gnupg"
 
 Write-Host "Starting GPG keys backup..." -ForegroundColor Green
