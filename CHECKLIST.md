@@ -37,8 +37,8 @@ Use this checklist to track progress through the entire fresh install process.
 - [x] Download Windows 11/10 ISO from Microsoft
 - [x] Create bootable USB drive
 - [x] Verify Windows license key (saved to Dropbox: software-list\windows-product-key.txt)
-- [ ] Download drivers for hardware (network, graphics, chipset)
-- [ ] Save all software license keys to Dropbox backup
+- [x] Download drivers for hardware (network, graphics, chipset) - Network drivers saved to Dropbox
+- [x] Save all software license keys to Dropbox backup - Windows key saved
 
 ### 1.6 Document Current System
 
