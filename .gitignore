@@ -19,3 +19,9 @@ desktop.ini
 personal-notes.md
 private-keys.txt
 
+# Generated software lists (may contain system-specific info)
+installed-software*.txt
+installed-software*.csv
+winget-list.txt
+installed-apps-preview.txt
+

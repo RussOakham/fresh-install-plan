@@ -104,6 +104,13 @@ Use this checklist to track progress through the entire fresh install process.
 - [ ] Install Homebrew (Linux)
 - [ ] Configure zsh as default shell
 - [ ] Configure Git in WSL
+- [ ] Install essential CLI tools (build-essential, curl, wget, jq, tree, htop, vim, nano, git)
+- [ ] Install Node.js and npm
+- [ ] Install AWS CLI v2
+- [ ] Install AWS SAM CLI
+- [ ] Install AWS Session Manager Plugin
+- [ ] Install CLI tools via Homebrew (gh, terraform, pnpm, fzf, ripgrep, fd, zoxide, bat, eza, dust, procs, delta, tldr, chezmoi, direnv, ghq, yq, doppler, newman)
+- [ ] Configure fzf and zoxide
 - [ ] Restore Git repository from backup
 
 ## Phase 4: Software List Template
@@ -121,6 +128,11 @@ Use this checklist to track progress through the entire fresh install process.
 - [ ] oh-my-zsh is installed
 - [ ] Homebrew is working
 - [ ] Git is configured
+- [ ] AWS CLI, SAM CLI, and Session Manager Plugin are installed
+- [ ] Node.js and npm are installed
+- [ ] Essential CLI tools are installed (curl, wget, jq, tree, htop, etc.)
+- [ ] Homebrew CLI tools are installed (gh, terraform, fzf, ripgrep, fd, zoxide, etc.)
+- [ ] Additional utilities are installed (bat, eza, yq, doppler, etc.)
 - [ ] Cursor can access WSL
 
 ### 5.2 Test Development Workflow
@@ -131,9 +143,51 @@ Use this checklist to track progress through the entire fresh install process.
 
 ## Phase 6: Software Re-Installation
 
+### 6.1 Browsers
+- [ ] Install Google Chrome
+
+### 6.2 Development Tools
+- [ ] Install Git (Windows)
+- [ ] Install GitHub CLI (if using Windows version)
+- [ ] Install Docker Desktop
+
+### 6.3 Gaming Platforms & Launchers
+- [ ] Install Steam
+- [ ] Install Battle.net
+- [ ] Install Ubisoft Connect
+- [ ] Install Rockstar Games Launcher
+- [ ] Install Battlestate Games Launcher
+- [ ] Install Epic Games Launcher
+
+### 6.4 Hardware Control & Monitoring
+- [ ] Install ASUS Armoury Crate
+- [ ] Install NZXT CAM
+- [ ] Install Logitech G HUB
+- [ ] Install SteelSeries GG
+- [ ] Install CPUID HWMonitor
+- [ ] Install Samsung Magician
+- [ ] Install Western Digital Dashboard
+- [ ] Install L-Connect 3
+- [ ] Install AMD Ryzen Master
+
+### 6.5 Graphics Drivers & Software
+- [ ] Install NVIDIA Graphics Driver
+- [ ] Install NVIDIA App
+- [ ] Install AMD Chipset Software
+
+### 6.6 System Utilities
+- [ ] Install Dropbox
+
+### 6.7 Printers & Scanners
+- [ ] Install Canon TS5100 Series Drivers & Software (if printer still in use)
+
+### 6.8 Other
+- [ ] Install Zwift
+
+### 6.9 Track Progress
 - [ ] Go through SOFTWARE_LIST.md category by category
 - [ ] Install each software using preferred method
-- [ ] Update template with installation notes
+- [ ] Update SOFTWARE_LIST.md with installation notes
 - [ ] Mark completed items in checklist
 
 ## Completion

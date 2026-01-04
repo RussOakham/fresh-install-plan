@@ -13,108 +13,189 @@ Use this template to track all software that needs to be reinstalled after the f
 
 ### Browsers
 
-- [ ] **Chrome**
+- [ ] **Google Chrome**
   - Installation: `winget install --id Google.Chrome -e --source winget`
   - License: N/A (Free)
   - Notes: Sync bookmarks and passwords from backup
 
-### Communication
+### Development Tools
 
-- [ ] **Slack**
-  - Installation: `winget install --id SlackTechnologies.Slack -e --source winget`
-  - License: N/A (Free/Paid)
-  - Notes:
-
-- [ ] **Discord**
-  - Installation: `winget install --id Discord.Discord -e --source winget`
+- [ ] **Git**
+  - Installation: `winget install --id Git.Git -e --source winget`
   - License: N/A (Free)
-  - Notes:
+  - Notes: Also covered in DEV_ENV_SETUP.md
 
-- [ ] **Microsoft Teams**
-  - Installation: `winget install --id Microsoft.Teams -e --source winget`
-  - License: N/A (Free/Paid)
-  - Notes:
-
-### Media
-
-- [ ] **VLC Media Player**
-  - Installation: `winget install --id VideoLAN.VLC -e --source winget`
+- [ ] **GitHub CLI**
+  - Installation: `winget install --id GitHub.cli -e --source winget`
   - License: N/A (Free)
-  - Notes:
+  - Notes: Also covered in DEV_ENV_SETUP.md
 
-- [ ] **Spotify**
-  - Installation: `winget install --id Spotify.Spotify -e --source winget`
-  - License: N/A (Free/Paid)
-  - Notes:
-
-### Productivity
-
-- [ ] **Microsoft Office**
-  - Installation: Download from office.com or `winget install --id Microsoft.Office -e --source winget`
-  - License: [Location of license key]
-  - Notes:
-
-### Utilities
-
-- [ ] **7-Zip**
-  - Installation: `winget install --id 7zip.7zip -e --source winget`
+- [ ] **Docker Desktop**
+  - Installation: `winget install --id Docker.DockerDesktop -e --source winget`
   - License: N/A (Free)
-  - Notes:
+  - Notes: Also covered in DEV_ENV_SETUP.md
 
-- [ ] **WinRAR**
-  - Installation: `winget install --id RARLab.WinRAR -e --source winget`
-  - License: [Location of license key]
-  - Notes:
+- [ ] **AWS CLI v2** *(Install in WSL)*
+  - Installation: Install in WSL/zsh after dev environment setup
+  - License: N/A (Free)
+  - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
-### Graphics/Design
+- [ ] **AWS SAM CLI** *(Install in WSL)*
+  - Installation: Install in WSL/zsh after dev environment setup
+  - License: N/A (Free)
+  - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
-- [ ] **[Software Name]**
-  - Installation:
-  - License:
-  - Notes:
+- [ ] **AWS Session Manager Plugin** *(Install in WSL)*
+  - Installation: Install in WSL/zsh after dev environment setup
+  - License: N/A (Free)
+  - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
-### Gaming
+### Gaming Platforms & Launchers
 
 - [ ] **Steam**
-  - Installation:
-  - License:
-  - Notes:
+  - Installation: `winget install --id Valve.Steam -e --source winget` or download from <https://store.steampowered.com/about/>
+  - License: N/A (Free)
+  - Notes: Install games from Steam library after installation
+
+- [ ] **Battle.net**
+  - Installation: Download from <https://www.battle.net/en/download>
+  - License: N/A (Free)
+  - Notes: Blizzard/Activision game launcher
 
 - [ ] **Ubisoft Connect**
-  - Installation:
+  - Installation: Download from <https://www.ubisoft.com/en-us/launcher> or `winget install --id Ubisoft.Connect -e --source winget`
   - License: N/A (Free, requires Ubisoft account)
   - Notes: Gaming platform for Ubisoft games
 
-- [ ] **Escape from Tarkov**
-  - Installation:
-  - License:
-  - Notes:
+- [ ] **Rockstar Games Launcher**
+  - Installation: Download from <https://www.rockstargames.com/rockstar-games-launcher>
+  - License: N/A (Free)
+  - Notes: Required for Rockstar games (GTA V, etc.)
 
-### Security
+- [ ] **Battlestate Games Launcher**
+  - Installation: Download from <https://www.escapefromtarkov.com/>
+  - License: N/A (Free, requires game purchase)
+  - Notes: Required for Escape from Tarkov
 
-- [ ] **VPN Client**
-  - Installation:
-  - License:
-  - Notes:
+- [ ] **Epic Games Launcher**
+  - Installation: `winget install --id EpicGames.EpicGamesLauncher -e --source winget` or download from <https://www.epicgames.com/store/en-US/download>
+  - License: N/A (Free)
+  - Notes: Epic Games store and launcher
 
-- [ ] **Antivirus**
-  - Installation:
-  - License:
-  - Notes:
+### Hardware Control & Monitoring
 
-### System Tools
+- [ ] **ASUS Armoury Crate**
+  - Installation: Download from ASUS support site or pre-installed on ASUS systems
+  - License: N/A (Free)
+  - Notes: RGB control, system monitoring, driver updates. Includes AURA SDK and DriverHub
 
-- [ ] **[Software Name]**
-  - Installation:
-  - License:
-  - Notes:
+- [ ] **NZXT CAM**
+  - Installation: Download from <https://www.nzxt.com/cam-app>
+  - License: N/A (Free)
+  - Notes: NZXT hardware monitoring and RGB control
+
+- [ ] **Logitech G HUB**
+  - Installation: `winget install --id Logitech.GHUB -e --source winget` or download from <https://www.logitechg.com/en-us/innovation/g-hub.html>
+  - License: N/A (Free)
+  - Notes: Logitech gaming peripherals configuration
+
+- [ ] **SteelSeries GG**
+  - Installation: Download from <https://steelseries.com/gg>
+  - License: N/A (Free)
+  - Notes: SteelSeries peripherals configuration
+
+- [ ] **CPUID HWMonitor**
+  - Installation: Download from <https://www.cpuid.com/softwares/hwmonitor.html>
+  - License: N/A (Free)
+  - Notes: Hardware monitoring and temperature tracking
+
+- [ ] **Samsung Magician**
+  - Installation: Download from <https://semiconductor.samsung.com/consumer-storage/support/tools/>
+  - License: N/A (Free)
+  - Notes: Samsung SSD management and optimization
+
+- [ ] **Western Digital Dashboard**
+  - Installation: Download from <https://support-en.wd.com/app/products/product-detail/p/227/~/wd_dashboard>
+  - License: N/A (Free)
+  - Notes: Western Digital drive management
+
+- [ ] **L-Connect 3**
+  - Installation: Download from <https://lian-li.com/l-connect-3/>
+  - License: N/A (Free)
+  - Notes: Lian Li RGB fan and lighting control
+
+- [ ] **AMD Ryzen Master**
+  - Installation: Download from <https://www.amd.com/en/technologies/ryzen-master>
+  - License: N/A (Free)
+  - Notes: AMD Ryzen CPU monitoring and overclocking
+
+### Graphics Drivers & Software
+
+- [ ] **NVIDIA Graphics Driver**
+  - Installation: Download from <https://www.nvidia.com/Download/index.aspx> or via NVIDIA App
+  - License: N/A (Free)
+  - Notes: Install latest driver for your GPU. Includes PhysX and ShadowPlay via NVIDIA App
+
+- [ ] **NVIDIA App**
+  - Installation: Download from <https://www.nvidia.com/en-us/geforce/geforce-experience/> or Microsoft Store
+  - License: N/A (Free)
+  - Notes: Driver updates, game optimization, ShadowPlay recording. Includes PhysX System Software
+
+- [ ] **AMD Chipset Software**
+  - Installation: Download from <https://www.amd.com/en/support> or AMD support site
+  - License: N/A (Free)
+  - Notes: AMD chipset drivers and optimization
+
+### System Utilities
+
+- [ ] **Dropbox**
+  - Installation: `winget install --id Dropbox.Dropbox -e --source winget` or download from <https://www.dropbox.com/download>
+  - License: N/A (Free/Paid)
+  - Notes: Cloud storage and backup location
+
+### Printers & Scanners
+
+- [ ] **Canon TS5100 Series Drivers & Software**
+  - Installation: Download from Canon support site for TS5100 series
+  - License: N/A (Free)
+  - Notes: Includes MP Drivers, Printer Assistant Tool, Scan Utility, Network Scanner Selector EX2
+
+### Other
+
+- [ ] **Zwift**
+  - Installation: Download from <https://www.zwift.com/>
+  - License: N/A (Free/Paid subscription)
+  - Notes: Fitness/cycling training app
 
 ## Installation Progress
 
-- Total software items:
-- Completed:
-- Remaining:
+- Total software items: ~30
+- Completed: 0
+- Remaining: ~30
 
 ## Notes
 
-Add any additional notes about software installation here.
+### Games
+
+- All games should be installed from their respective launchers (Steam, Battle.net, Ubisoft Connect, etc.) after the launchers are installed
+- Games are not listed individually as they can be reinstalled from launcher libraries
+
+### Development Tools in WSL
+
+- AWS CLI v2, AWS SAM CLI, and Session Manager Plugin should be installed in WSL/zsh environment
+- See DEV_ENV_SETUP.md for WSL setup instructions
+
+### Hardware-Specific Software
+
+- Some hardware control software (ASUS Armoury Crate, NZXT CAM, etc.) may need to be downloaded from manufacturer websites
+- Graphics drivers should be installed early in the process for proper display functionality
+
+### Installation Order Recommendation
+
+1. Graphics drivers (NVIDIA/AMD)
+2. Browsers (Chrome)
+3. Development tools (Git, GitHub CLI, Docker)
+4. Gaming platforms
+5. Hardware control software
+6. System utilities
+7. Other applications

@@ -36,7 +36,7 @@
 
   ```bash
   # Option 1: Clone from remote (if you pushed to GitHub/GitLab)
-  git clone <your-repo-url> fresh-install-plan
+  git clone https://github.com/YOUR_USERNAME/fresh-install-plan.git
   cd fresh-install-plan
   
   # Option 2: Copy from Dropbox if stored locally
