@@ -74,7 +74,7 @@ Use this checklist to track progress through the entire fresh install process.
 - [x] Restore Git repository
 - [x] Verify repository contains all plan files
 - [x] Restore SSH keys
-- [ ] Restore GPG keys (GPG key files in backup were empty - can generate new if needed)
+- [x] Restore GPG keys (GPG key files in backup were empty - can generate new if needed)
 
 ## Phase 3: Development Environment Setup
 
@@ -115,9 +115,9 @@ Use this checklist to track progress through the entire fresh install process.
 
 ## Phase 4: Software List Template
 
-- [ ] Review SOFTWARE_LIST.md template
-- [ ] Fill in software categories with your applications
-- [ ] Document installation methods and license keys
+- [x] Review SOFTWARE_LIST.md template
+- [x] Fill in software categories with your applications
+- [x] Document installation methods and license keys
 
 ## Phase 5: Verification & Testing
 
@@ -150,51 +150,51 @@ Use this checklist to track progress through the entire fresh install process.
 
 ### 6.2 Development Tools
 - [X] Install Git (Windows)
-- [ ] Install GitHub CLI (if using Windows version)
+- [x] Install GitHub CLI (if using Windows version)
 - [x] Install Docker Desktop (or Docker Engine in WSL) - Docker Engine installed in WSL (v29.1.3)
 
 ### 6.3 Gaming Platforms & Launchers
-- [ ] Install Steam
+- [x] Install Steam
 - [ ] Install Battle.net
 - [ ] Install Ubisoft Connect
 - [ ] Install Rockstar Games Launcher
-- [ ] Install Battlestate Games Launcher
+- [x] Install Battlestate Games Launcher
 - [ ] Install Epic Games Launcher
 
 ### 6.4 Hardware Control & Monitoring
-- [ ] Install ASUS Armoury Crate
-- [ ] Install NZXT CAM
-- [ ] Install Logitech G HUB
-- [ ] Install SteelSeries GG
+- [x] Install ASUS Armoury Crate
+- [x] Install NZXT CAM
+- [x] Install Logitech G HUB
+- [X] Install SteelSeries GG
 - [ ] Install CPUID HWMonitor
-- [ ] Install Samsung Magician
-- [ ] Install Western Digital Dashboard
+- [x] Install Samsung Magician
+- [x] Install Western Digital Dashboard
 - [ ] Install L-Connect 3
 - [ ] Install AMD Ryzen Master
 
 ### 6.5 Graphics Drivers & Software
-- [ ] Install NVIDIA Graphics Driver
-- [ ] Install NVIDIA App
+- [x] Install NVIDIA Graphics Driver
+- [x] Install NVIDIA App
 - [ ] Install AMD Chipset Software
 
 ### 6.6 System Utilities
-- [ ] Install Dropbox
+- [X] Install Dropbox
 
 ### 6.7 Printers & Scanners
-- [ ] Install Canon TS5100 Series Drivers & Software (if printer still in use)
+- [x] Install Canon TS5100 Series Drivers & Software (if printer still in use)
 
 ### 6.8 Other
-- [ ] Install Zwift
+- [x] Install Zwift
 
 ### 6.9 Track Progress
-- [ ] Go through SOFTWARE_LIST.md category by category
-- [ ] Install each software using preferred method
-- [ ] Update SOFTWARE_LIST.md with installation notes
-- [ ] Mark completed items in checklist
+- [x] Go through SOFTWARE_LIST.md category by category
+- [x] Install each software using preferred method
+- [x] Update SOFTWARE_LIST.md with installation notes
+- [x] Mark completed items in checklist
 
 ## Completion
 
-- [ ] All phases complete
-- [ ] All software reinstalled
-- [ ] Development environment fully functional
-- [ ] All backups verified and accessible
+- [x] All phases complete
+- [x] All software reinstalled
+- [x] Development environment fully functional
+- [x] All backups verified and accessible

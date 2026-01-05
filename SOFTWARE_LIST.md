@@ -13,14 +13,14 @@ Use this template to track all software that needs to be reinstalled after the f
 
 ### Browsers
 
-- [ ] **Google Chrome**
+- [x] **Google Chrome**
   - Installation: `winget install --id Google.Chrome -e --source winget`
   - License: N/A (Free)
   - Notes: Sync bookmarks and passwords from backup
 
 ### Development Tools
 
-- [ ] **Git**
+- [x] **Git**
   - Installation: `winget install --id Git.Git -e --source winget`
   - License: N/A (Free)
   - Notes: Also covered in DEV_ENV_SETUP.md
@@ -30,29 +30,29 @@ Use this template to track all software that needs to be reinstalled after the f
   - License: N/A (Free)
   - Notes: Also covered in DEV_ENV_SETUP.md
 
-- [ ] **Docker Desktop**
+- [x] **Docker Desktop**
   - Installation: `winget install --id Docker.DockerDesktop -e --source winget`
   - License: N/A (Free)
   - Notes: Also covered in DEV_ENV_SETUP.md
 
-- [ ] **AWS CLI v2** *(Install in WSL)*
+- [x] **AWS CLI v2** *(Install in WSL)*
   - Installation: Install in WSL/zsh after dev environment setup
   - License: N/A (Free)
   - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
-- [ ] **AWS SAM CLI** *(Install in WSL)*
+- [x] **AWS SAM CLI** *(Install in WSL)*
   - Installation: Install in WSL/zsh after dev environment setup
   - License: N/A (Free)
   - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
-- [ ] **AWS Session Manager Plugin** *(Install in WSL)*
+- [x] **AWS Session Manager Plugin** *(Install in WSL)*
   - Installation: Install in WSL/zsh after dev environment setup
   - License: N/A (Free)
   - Notes: See DEV_ENV_SETUP.md for WSL installation steps
 
 ### Gaming Platforms & Launchers
 
-- [ ] **Steam**
+- [x] **Steam**
   - Installation: `winget install --id Valve.Steam -e --source winget` or download from <https://store.steampowered.com/about/>
   - License: N/A (Free)
   - Notes: Install games from Steam library after installation
@@ -84,22 +84,22 @@ Use this template to track all software that needs to be reinstalled after the f
 
 ### Hardware Control & Monitoring
 
-- [ ] **ASUS Armoury Crate**
+- [x] **ASUS Armoury Crate**
   - Installation: Download from ASUS support site or pre-installed on ASUS systems
   - License: N/A (Free)
   - Notes: RGB control, system monitoring, driver updates. Includes AURA SDK and DriverHub
 
-- [ ] **NZXT CAM**
+- [x] **NZXT CAM**
   - Installation: Download from <https://www.nzxt.com/cam-app>
   - License: N/A (Free)
   - Notes: NZXT hardware monitoring and RGB control
 
-- [ ] **Logitech G HUB**
+- [x] **Logitech G HUB**
   - Installation: `winget install --id Logitech.GHUB -e --source winget` or download from <https://www.logitechg.com/en-us/innovation/g-hub.html>
   - License: N/A (Free)
   - Notes: Logitech gaming peripherals configuration
 
-- [ ] **SteelSeries GG**
+- [x] **SteelSeries GG**
   - Installation: Download from <https://steelseries.com/gg>
   - License: N/A (Free)
   - Notes: SteelSeries peripherals configuration
@@ -109,12 +109,12 @@ Use this template to track all software that needs to be reinstalled after the f
   - License: N/A (Free)
   - Notes: Hardware monitoring and temperature tracking
 
-- [ ] **Samsung Magician**
+- [x] **Samsung Magician**
   - Installation: Download from <https://semiconductor.samsung.com/consumer-storage/support/tools/>
   - License: N/A (Free)
   - Notes: Samsung SSD management and optimization
 
-- [ ] **Western Digital Dashboard**
+- [x] **Western Digital Dashboard**
   - Installation: Download from <https://support-en.wd.com/app/products/product-detail/p/227/~/wd_dashboard>
   - License: N/A (Free)
   - Notes: Western Digital drive management
@@ -131,38 +131,38 @@ Use this template to track all software that needs to be reinstalled after the f
 
 ### Graphics Drivers & Software
 
-- [ ] **NVIDIA Graphics Driver**
+- [x] **NVIDIA Graphics Driver**
   - Installation: Download from <https://www.nvidia.com/Download/index.aspx> or via NVIDIA App
   - License: N/A (Free)
   - Notes: Install latest driver for your GPU. Includes PhysX and ShadowPlay via NVIDIA App
 
-- [ ] **NVIDIA App**
+- [x] **NVIDIA App**
   - Installation: Download from <https://www.nvidia.com/en-us/geforce/geforce-experience/> or Microsoft Store
   - License: N/A (Free)
   - Notes: Driver updates, game optimization, ShadowPlay recording. Includes PhysX System Software
 
-- [ ] **AMD Chipset Software**
+- [x] **AMD Chipset Software**
   - Installation: Download from <https://www.amd.com/en/support> or AMD support site
   - License: N/A (Free)
   - Notes: AMD chipset drivers and optimization
 
 ### System Utilities
 
-- [ ] **Dropbox**
+- [x] **Dropbox**
   - Installation: `winget install --id Dropbox.Dropbox -e --source winget` or download from <https://www.dropbox.com/download>
   - License: N/A (Free/Paid)
   - Notes: Cloud storage and backup location
 
 ### Printers & Scanners
 
-- [ ] **Canon TS5100 Series Drivers & Software**
+- [x] **Canon TS5100 Series Drivers & Software**
   - Installation: Download from Canon support site for TS5100 series
   - License: N/A (Free)
   - Notes: Includes MP Drivers, Printer Assistant Tool, Scan Utility, Network Scanner Selector EX2
 
 ### Other
 
-- [ ] **Zwift**
+- [x] **Zwift**
   - Installation: Download from <https://www.zwift.com/>
   - License: N/A (Free/Paid subscription)
   - Notes: Fitness/cycling training app

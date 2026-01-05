@@ -20,19 +20,19 @@
 
 ### 2.2 Post-Install Windows Configuration
 
-- [ ] Install all Windows updates
-- [ ] Install hardware drivers (network, graphics, etc.)
-- [ ] Configure Windows Update settings
-- [ ] Set up Windows Security/Defender
-- [ ] Configure power settings
-- [ ] Set up user account preferences
+- [x] Install all Windows updates
+- [x] Install hardware drivers (network, graphics, etc.)
+- [x] Configure Windows Update settings
+- [x] Set up Windows Security/Defender
+- [x] Configure power settings
+- [x] Set up user account preferences
 
 ### 2.3 Restore Dropbox and Repository
 
-- [ ] Install Dropbox Desktop from <https://www.dropbox.com/download>
-- [ ] Sign in to Dropbox account
-- [ ] Verify backup folder `PC-Backup-2026` is synced
-- [ ] Restore Git repository:
+- [x] Install Dropbox Desktop from <https://www.dropbox.com/download>
+- [x] Sign in to Dropbox account
+- [x] Verify backup folder `PC-Backup-2026` is synced
+- [x] Restore Git repository:
 
   ```bash
   # Option 1: Clone from remote (if you pushed to GitHub/GitLab)
@@ -43,8 +43,8 @@
   # Navigate to Dropbox/PC-Backup-2026 and copy repository folder
   ```
 
-- [ ] Verify repository contains all plan files
-- [ ] Restore SSH keys (when ready):
+- [x] Verify repository contains all plan files
+- [x] Restore SSH keys (when ready):
 
   ```powershell
   # Create .ssh directory
